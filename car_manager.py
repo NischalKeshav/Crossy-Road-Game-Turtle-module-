@@ -9,6 +9,7 @@ class CarManager():
     def __init__(self,lev=1):
         self.ListOfCars =[] 
         self.level= lev
+        self.go = 8
     def carAdd(self):
         car = Turtle()  
         car.penup()
@@ -17,12 +18,12 @@ class CarManager():
         car.shapesize(stretch_len=2)
         car.goto(300,random.randrange(-200,250))
         car.right(0)
-        car.go = 8
+
         self.ListOfCars.append(car)
                   
     def move(self):
         for i in self.ListOfCars:
-            i.backward(i.go)
+            i.backward(self.go)
             if i.xcor()<-320:
                 self.ListOfCars.remove(i)
     def contact(self,x):

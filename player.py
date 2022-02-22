@@ -1,6 +1,7 @@
 import turtle 
 from turtle import Turtle
 from scoreboard import Scoreboard
+from main import CarSpawner
 STARTING_POSITION = (0, -280)
 MOVE_DISTANCE = 10
 FINISH_LINE_Y = 280
@@ -27,4 +28,5 @@ class Player(Turtle):
       if self.Test_Next_Level():
         self.goto(STARTING_POSITION)
         Scoreboard.rescore()
+        CarSpawner.go += 2
     

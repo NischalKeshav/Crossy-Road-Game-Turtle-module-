@@ -1,0 +1,28 @@
+{
+  "files": {
+    "car_manager.py": [
+      {
+        "id": "e2cbcccf-e269-4252-81a7-5838221ac2db",
+        "line": 8,
+        "version": 784,
+        "index": 170
+      }
+    ],
+    "main.py": [
+      {
+        "id": "03204696-3d93-46f0-a5b7-5231bfc1e5be",
+        "line": 24,
+        "version": 594,
+        "index": 428
+      }
+    ],
+    "player.py": [
+      {
+        "id": "53483e47-aeb1-4759-becc-25bab6fa34e9",
+        "line": 3,
+        "version": 484,
+        "index": 41
+      }
+    ]
+  }
+}
